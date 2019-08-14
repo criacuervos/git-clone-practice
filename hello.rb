@@ -1,3 +1,5 @@
-here is a great comment 
-
-now there is a new comment
+rows = []
+rows << ['One', 1]
+rows << ['Two', 2]
+rows << ['Three', 3]
+table = Terminal::Table.new :rows => rows
